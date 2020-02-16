@@ -1,19 +1,22 @@
 <html>
-    <head>
+    <head style="background-image: url('../img/starfield.jpg')">
             <link rel="stylesheet" href="../css/login.css">
-        <title>Star Wars Search</title>
+        <title id="title">Star Wars Search</title>
     </head>
-    <body>
-        <div style="background-image: url('../img/starfield.jpg')">
-            <h1>Welcome to the Star Wars Character Search!</h1>
-            <h3>Login to Get Started</h3>
-            <form>
-                <input type="text" placeholder="Username"/>
-                <input type="password" placeholder="Password"/>
-                <button type="button">
-                    Login
-                </button>
-            </form>
-        </div>
+    <body style="background-image: url('../img/starfield.jpg')">
+        <script src="../js/login.js"></script>
+     <center>
+         <div>
+             <h1>Welcome to the Star Wars Character Search!</h1>
+             <h3>Login to Get Started</h3>
+             <form>
+                    <input id="username" type="text" placeholder="Username"/>
+                 <input id="password"class=password type="password" placeholder="Password"/>
+                 <button type="button" onclick="loginUser()">
+                       Login
+                    </button>
+                </form>
+            </div>
+        <center/>
     </body>
 </html>
