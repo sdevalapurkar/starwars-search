@@ -14,7 +14,7 @@ function searchForUser() {
         var swapiData = response;
 
         // pull out into variables, the important attributes you care about from results
-        
+
     });
 }
 

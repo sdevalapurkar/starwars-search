@@ -1,2 +1,13 @@
 h1,h3{color:white;}
  
+input{
+    height:30px ;
+    width: 30%;
+    outline-color: yellow;
+}
+button{ 
+    height: 1cm;
+    width: 2.5cm;
+    outline: yellow;
+    font-size: medium;
+}
