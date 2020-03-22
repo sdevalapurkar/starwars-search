@@ -12,7 +12,18 @@ function searchForUser() {
         // if the array is empty, no results
         // if the array is not empty, then we need to go through the array and pull out important info we care about to display on the results screen
         var swapiData = response;
+        console.log(swapiData["results"]);
+        if(swapiData["count"]<0){
+            console.log('sdshd');
+       var name = swapiData.results[0].name
+       var height = swapiData.results[0].height
+       var mass = swapiData.results[0].mass
+       var gender = swapiData.results[0].gender
+       var skincolor = swapiData.results[0].skin_color
+       var homeworld = swapiData.results[0].homeworld
 
+       console.log(name, height, mass, gender, skincolor, homeworld);
+        }
         // pull out into variables, the important attributes you care about from results
 
     });
