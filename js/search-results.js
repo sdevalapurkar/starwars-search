@@ -12,3 +12,4 @@ document.getElementById("gender").innerHTML = `Gender: ${gender}`
 document.getElementById("skin_color").innerHTML = `Skin Color: ${skin_color}`
 document.getElementById("homeworld").innerHTML = `Homeworld: ${homeworld}`
 document.getElementById("height").innerHTML = `Height: ${height}`
+
