@@ -33,10 +33,11 @@ function searchForUser() {
         sessionStorage.setItem("homeworld", data.name)
         window.location.href = "search-results.html"
        })
-    }
+    }else{
+        window.location.href = "no-results.html"}
+    })
+    };
 
-    });
-}
 
 // reusable code to make a http call (from internet)
 var HttpClient = function() {
