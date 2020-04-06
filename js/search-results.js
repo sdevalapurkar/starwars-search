@@ -13,3 +13,7 @@ document.getElementById("skin_color").innerHTML = `Skin Color: ${skin_color}`
 document.getElementById("homeworld").innerHTML = `Homeworld: ${homeworld}`
 document.getElementById("height").innerHTML = `Height: ${height}`
 
+function goBack (){
+    window.location.href = "search-bar.html"
+}
+

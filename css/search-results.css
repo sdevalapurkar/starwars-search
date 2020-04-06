@@ -1,1 +1,11 @@
-h1,p{color:white;}
+h1,h2{
+    color:yellow;
+}
+button{ 
+    height: 2.5cm;
+    width: 2.5cm;
+    outline: yellow;
+    font-size: medium;    
+    border-width: 0.75mm;
+    border-color: yellow;
+}

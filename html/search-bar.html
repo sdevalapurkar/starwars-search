@@ -4,16 +4,18 @@
          <title> Search Bar</title>
     </head>
     <center>
-      <body style="background-image: url('/Users/aaronsheoran/Desktop/Programing/starwars-search/images/starfield.jpg')"></bodystyle>
+      <body style="background-image: url('../images/backdrop.jpg')"></bodystyle>
         <script src="../js/search-bar.js"></script>  
             <div>
-                 <h1> Search for any Star Wars character!</h1>
+                <h1> Search for any Star Wars character!</h1>
                 <form>
-                <input style="position: relative; top: 50px;"id= "search-bar-data" type="text" placeholder="Search Here"/>
-                 <button style="position:relative; top: 125px; right: 380px;" type="button" onclick="searchForUser()"/>
-                Go
-              </form>
-         </div>
+                  <input style="position: relative; top: 50px;"id= "search-bar-data" type="text" placeholder="Search Here"/>
+                   <button style="position:relative; top: 125px; right: 380px;" type="button" onclick="searchForUser()"/>
+                  Go
+                </form>
+            </div>
+         <button id= "logout" style="position:relative; bottom: 100px; left: -550px;" type="button" onclick="logout()"/>
+         Log out
      </body>
     </center>
 </html
