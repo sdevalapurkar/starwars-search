@@ -5,5 +5,7 @@ button{
     height: 2.5cm;
     width: 2.5cm;
     outline: yellow;
-    font-size: medium;
+    font-size: medium;    
+    border-width: 0.75mm;
+    border-color: yellow;
 }

@@ -4,14 +4,18 @@ input{
     width: 30%;
     outline-color: yellow;
     border-color: yellow;
-    border-width: 0.75mm;
+    border-width: 0.70mm;
+    border-radius: 1cm;
 }
 button{ 
     height: 1cm;
     width: 2.5cm;
     font-size: medium;
     border-radius: 0.5cm;
+    border-width: 0.75mm;
+    border-color: yellow;
 }
+
 #logout{
 height: 2.5cm;
 width: 2.5cm;
