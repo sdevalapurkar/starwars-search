@@ -9,5 +9,11 @@ input{
 button{ 
     height: 1cm;
     width: 2.5cm;
-    font-size: large;
+    font-size: medium;
+    border-radius: 0.5cm;
+}
+#logout{
+height: 2.5cm;
+width: 2.5cm;
+border-radius: 0.5cm;
 }

@@ -52,3 +52,7 @@ var HttpClient = function() {
         anHttpRequest.send( null );
     }
 }
+function logout (){
+window.location.href = "login.html"
+
+}
